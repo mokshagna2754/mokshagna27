@@ -1,0 +1,67 @@
+{
+  "theme": "dark",
+  "archetype": "5 (Jewel & Luxury)",
+  "colors": {
+    "background_base": "#0D1B2A",
+    "background_surface": "#132336",
+    "background_glass": "rgba(13, 27, 42, 0.4)",
+    "primary": "#D4A373",
+    "primary_hover": "#E8C299",
+    "text_main": "#F8FAFC",
+    "text_muted": "#94A3B8",
+    "border_subtle": "rgba(212, 163, 115, 0.15)",
+    "border_glow": "rgba(212, 163, 115, 0.4)",
+    "gradient_gold": "linear-gradient(135deg, #D4A373 0%, #B88A5A 100%)",
+    "gradient_navy": "linear-gradient(180deg, #0D1B2A 0%, #0A141F 100%)"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "h1_size": "text-5xl md:text-6xl lg:text-7xl font-light tracking-tighter",
+    "h2_size": "text-3xl md:text-4xl lg:text-5xl font-normal tracking-tight",
+    "h3_size": "text-2xl md:text-3xl font-medium",
+    "body_size": "text-base md:text-lg text-[#94A3B8] leading-relaxed",
+    "overline": "text-xs md:text-sm uppercase tracking-[0.2em] text-[#D4A373] font-semibold"
+  },
+  "visual_enhancers": {
+    "particles": "MANDATORY: Use react-tsparticles to create a subtle, elegant field of glowing muted gold dust particles drifting slowly over the deep navy background. Configuration: low density, slow movement, varying opacities.",
+    "geometric_shapes": "MANDATORY: Use framer-motion to create floating, rotating geometric shapes (hollow cubes, pyramids, intersecting rings) in the background. Use 1px #D4A373 strokes with low opacity (10-20%) to add depth without clutter.",
+    "glassmorphism": "Use pure crystal glassmorphism for sticky nav and floating cards. backdrop-blur-2xl, bg-[#0D1B2A]/40, and a 1px border of rgba(212, 163, 115, 0.15).",
+    "hover_interactions": "No static elements. Cards must have a 'tracing beam' or glowing border on hover. Buttons must have magnetic hover effects or a scale-up with an ambient gold drop-shadow.",
+    "scroll_animations": "Use framer-motion useScroll and useTransform for parallax scrolling. Text blocks should fade up and reveal on scroll. Images should have a slow zoom inside their containers."
+  },
+  "components": {
+    "navigation": "Floating glass pill menu at the top center, or a sleek edge-to-edge glass bar. Must include links to About, Experience, Projects, Contact, and social icons (lucide-react).",
+    "hero": "Full screen (min-h-screen). Massive 'Mokshagna Bingi' typography. Subtitle: 'AI/ML Developer & Full-Stack Engineer'. Particle background + floating geometry. An animated 'scroll down' gold line or mouse icon.",
+    "about_bento": "Bento grid layout. Mix text cards with image cards. Break symmetry. Use col-span-2 or row-span-2 to create visual tension.",
+    "education_timeline": "A glowing gold vertical line. As the user scrolls, nodes along the line light up. Do NOT use simple stacked cards.",
+    "experience": "Glassmorphism cards for the 5 internships. On hover, the border glows #D4A373 and the card tilts slightly using 3D transform. Content: Company, Role, Dates, Impact.",
+    "skills": "Instead of a boring list, use a continuous marquee (react-fast-marquee) of tech stack logos/names, or a floating orbital layout.",
+    "projects": "Masonry grid or horizontal scroll track for 30+ projects. High-quality imagery with gradient overlays. Hover reveals the tech stack and a 'View Project' CTA.",
+    "certifications": "Dense grid of sleek minimalist tiles. 15+ certs means they should be compact. Hover to expand or show a glowing badge.",
+    "contact_form": "Premium Apple-style form. Minimalist. Inputs have no visible background, only a bottom border that transitions to glowing gold on focus. Include Resend email logic integration instructions."
+  },
+  "media": {
+    "hero_background_texture": "https://images.unsplash.com/photo-1660066543518-57247c9fc76a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwbHV4dXJ5JTIwbmF2eSUyMGdvbGQlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NzUzMDE1MjJ8MA&ixlib=rb-4.1.0&q=85",
+    "geometric_reference": "https://images.unsplash.com/photo-1640027659327-96f1043e4278?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwbHV4dXJ5JTIwbmF2eSUyMGdvbGQlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NzUzMDE1MjJ8MA&ixlib=rb-4.1.0&q=85",
+    "particles_reference": "https://images.unsplash.com/photo-1642922516083-690a0f3745a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMDNkJTIwcGFydGljbGVzJTIwZ2xvd2luZyUyMGdlb21ldHJ5fGVufDB8fHx8MTc3NTMwMTUzN3ww&ixlib=rb-4.1.0&q=85",
+    "profile_placeholder": "https://images.unsplash.com/photo-1760004941335-6feccb7f800a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwzfHxzb2Z0d2FyZSUyMGVuZ2luZWVyJTIwcG9ydHJhaXQlMjBkYXJrJTIwc3R1ZGlvfGVufDB8fHx8MTc3NTMwMTUzN3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "layout_spacing": {
+    "section_padding": "py-24 md:py-32 lg:py-40",
+    "container_width": "max-w-7xl mx-auto px-6 md:px-12",
+    "gap_large": "gap-16 md:gap-24"
+  },
+  "instructions_to_main_agent": [
+    "INSTALL REQUIRED LIBRARIES: yarn add framer-motion react-tsparticles tsparticles react-fast-marquee lucide-react clsx tailwind-merge",
+    "MANDATORY: NO BASIC CARDS. You MUST use framer-motion to add entrance animations (staggered fade up) and complex hover states (tilt, border glow, shadow expansion) to EVERY card.",
+    "COLOR THEME STRICT ENFORCEMENT: Only use #0D1B2A (Navy) and #D4A373 (Gold) and their shades. Absolutely NO thick blue or cyber funk (neon cyan/magenta).",
+    "GEOMETRY: Use framer-motion to create floating SVG geometric outlines in the background of sections to fulfill the 'geometric shapes' requirement.",
+    "PARTICLES: Implement 'react-tsparticles' in the Hero section for glowing gold dust. This is a strict requirement.",
+    "TYPOGRAPHY: Import and use 'Outfit' and 'Plus Jakarta Sans' from Google Fonts in your layout.",
+    "TIMELINE: For Education, build a vertical line that tracks scroll progress (use framer-motion useScroll).",
+    "TESTING: Add data-testid to every single interactive element (buttons, form inputs, nav links, project cards).",
+    "UX: Ensure contrast ratios are accessible. The text over dark navy should be a crisp off-white.",
+    "FORMS: Use Shadcn Form components but strip out the Vercel-like borders. Use bottom-border only styles for a premium look."
+  ]
+}
