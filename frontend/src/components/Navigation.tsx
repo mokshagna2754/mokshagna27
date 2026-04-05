@@ -115,12 +115,13 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <motion.button
-            className="md:hidden p-2 text-[#94A3B8] hover:text-[#D4A373]"
+            className="md:hidden p-3 text-[#94A3B8] hover:text-[#D4A373] relative z-50"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             data-testid="mobile-menu-toggle"
             whileTap={{ scale: 0.95 }}
+            style={{ touchAction: 'manipulation' }}
           >
-            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </motion.button>
         </div>
       </motion.nav>
